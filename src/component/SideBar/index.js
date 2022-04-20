@@ -17,7 +17,7 @@ import { Container,
 } from './style'
 
 
-import { IconName,AiFillTool,AiOutlineClose, AiOutlineArrowLeft} from "react-icons/ai";
+import { AiFillTool, } from "react-icons/ai";
 import { BiNews } from "react-icons/bi";
 import { GiOverdrive } from "react-icons/gi";
 import { FaMusic} from 'react-icons/fa';
@@ -25,8 +25,6 @@ import {RiCompassDiscoverFill, RiDashboardFill, } from 'react-icons/ri';
 import { FiMessageCircle} from 'react-icons/fi';
 import { IoIosNotifications} from 'react-icons/io';
 import { BiUser} from 'react-icons/bi';
-import {CgMenuRight} from 'react-icons/cg';
-import {IoCloseSharp} from 'react-icons/io';
 
 
 import Profile from '../../assets/profile.jpg';
