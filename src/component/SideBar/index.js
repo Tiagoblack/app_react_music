@@ -32,12 +32,8 @@ import {IoCloseSharp} from 'react-icons/io';
 import Profile from '../../assets/profile.jpg';
 
 
-const SideBar = () => {
-
+export const SideBar = () => {
   const [opened, setOpened] = useState(false);
-
-
-
   const handleOPened = () =>{
     setOpened(!opened)
 
@@ -133,4 +129,3 @@ const SideBar = () => {
   )
 }
 
-export default SideBar;
