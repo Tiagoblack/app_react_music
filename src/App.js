@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React, {useRef} from "react";
 import './App.css';
+import SideBar from './component/SideBar';
+import Content from './component/Content'
+const App = ()=>{
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+  return(
+    <div className="app">
+        <SideBar/>
+        <Content />
     </div>
   );
 }
+
 
 export default App;
